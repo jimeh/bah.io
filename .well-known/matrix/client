@@ -12,5 +12,13 @@
   },
   "im.vector.riot.e2ee": {
     "default": true
+  },
+  "m.integrations": {
+    "managers": [
+      {
+        "api_url": "https://dimension.bah.io/api/v1/scalar",
+        "ui_url": "https://dimension.bah.io/element"
+      }
+    ]
   }
 }
